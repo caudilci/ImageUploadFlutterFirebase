@@ -2,6 +2,8 @@
 
 An app to demonstrate image upload to firebase and storage of the download url to cloud firestore.
 
+Note that this app was made and tested only in android. Compilation for IOS might not work.
+
 ## Getting Started
 
 To use this project, set up a firebase app with cloud firestore and a storage bucket. Then, register the app with the appropriate package name (Default = me.chrisicaudill.image_upload) and place the google-services.json file in the appropriate location.
