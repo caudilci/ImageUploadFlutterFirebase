@@ -6,6 +6,8 @@ An app to demonstrate image upload to firebase and storage of the download url t
 
 To use this project, set up a firebase app with cloud firestore and a storage bucket. Then, register the app with the appropriate package name (Default = me.chrisicaudill.image_upload) and place the google-services.json file in the appropriate location.
 
+You will also need to change the storage bucket URL in image_capture.dart's _storage variable to the URL of your storage bucket.
+
 ## Firebase Settings:
 
 In 'Authentication', enable anonymous sign in.
